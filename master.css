@@ -1,0 +1,226 @@
+/* bbxworld webdesign CSS Document */
+
+* {
+border:0;
+margin:0;
+padding:0;
+}
+
+a {
+text-decoration:none;
+}
+
+abbr {
+border-bottom:1px dashed #000;
+cursor:help;
+}
+
+body {
+background-color:#362f2d;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin:auto;
+width:100%;
+}
+
+h1 {
+font-size:16px;
+}
+
+h2 {
+font-size:15px;
+font-variant:small-caps;
+}
+
+h3 {
+font-size:12px;
+}
+
+li {
+list-style-type:none;
+}
+
+/* =CLASSES	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+.backwards {
+direction:rtl;
+unicode-bidi:bidi-override;
+}
+
+/* =header	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+#header {
+height:160px;
+margin:auto;
+width:770px;
+}
+
+/* =wrapper	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+#wrapper {
+background:url(images/wrapper.gif) repeat-y; /* =bug IE ne pas mettre de couleur de fond sinon on la voit à droite */
+margin:auto;
+width:794px;
+}
+
+/* =navigation	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+#navigation {
+background-image:url(images/nav_bg.gif);
+height:60px;
+overflow:hidden;
+position:relative; /* positionner cette <div> pour que les <a> se positionnent par rapport à ça */
+text-indent:-290486px;
+width:794px;
+}
+
+#navigation li {
+display:inline; /* =bug IE */
+}
+
+#navigation a {
+background-image:url(images/nav.gif); /* mettre "background-image" et pas "background" tout court sinon le "background-position" des nav0x ne marchent pas */
+background-repeat:no-repeat; /* mettre le background au <a> et aussi au #navigation */
+display:block;
+height:60px;
+position:absolute; /* pour que ça soit en ligne */
+}
+
+#nav01 {
+width:84px;
+}
+
+#nav02 {
+background-position:-84px 0;
+left:84px;
+width:97px;
+}
+
+#nav03 {
+background-position:-181px 0;
+left:181px;
+width:70px;
+}
+
+#nav04 {
+background-position:-251px 0;
+left:251px;
+width:44px;
+}
+
+#nav05 {
+background-position:-295px 0;
+left:295px;
+width:62px;
+}
+
+#nav01:hover {
+background-position:0 -60px;
+}
+
+#nav02:hover {
+background-position:-84px -60px;
+}
+
+#nav03:hover {
+background-position:-181px -60px;
+}
+
+#nav04:hover {
+background-position:-251px -60px;
+}
+
+#nav05:hover {
+background-position:-295px -60px;
+}
+
+/* =main	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+#main {
+background:#FFF;
+color:#242424;
+float:left;
+margin-bottom:40px;
+margin-left:32px;
+margin-right:20px;
+width:480px;
+}
+
+#main h1 {
+border-bottom:1px solid #242424;
+margin:12px 0;
+}
+
+#main h2 {
+color:#8dc63f;
+margin:12px 0 0 0;
+}
+
+#main h3 {
+background:url(images/icon.gif) left no-repeat;
+margin:4px 0 4px -20px;
+text-indent:20px;
+}
+
+#main h3 a {
+color:#242424;
+}
+
+#main h3 a:hover {
+background-color:#242424;
+color:#FFF;
+}
+
+#main li {
+margin-left:20px;
+}
+
+/* =bar	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+#bar {
+background:#242424;
+color:#FFF;
+float:right;
+margin-right:22px;
+margin-left:10px;
+width:230px;
+}
+
+#bar h1 {
+border-bottom:1px solid #FFF;
+margin:12px 0;
+}
+
+#bar h2 {
+color:#3f6618;
+}
+
+#bar h3 {
+background:url(images/iconbar.gif) left no-repeat;
+margin:4px -20px 4px 0;
+text-indent:20px;
+}
+
+#bar h3 a {
+color:#8dc63f;
+}
+
+#bar h3 a:hover {
+color:#FFF;
+background-color:#8dc63f;
+}
+
+/* =footer	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+#footer {
+background:url(images/footer.gif) no-repeat;
+clear:both;
+color:#FFF;
+font-size:11px;
+font-weight:bold;
+height:60px;
+line-height:56px;
+text-align:center;
+width:796px;
+}
+
+#footer a {
+color:#FFF;
+}
+
+#footer a:hover {
+color:#362f2d;
+}
