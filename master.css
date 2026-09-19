@@ -55,7 +55,7 @@ width:770px;
 
 /* =wrapper	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 #wrapper {
-background:url(images/wrapper.gif) repeat-y; /* =bug IE ne pas mettre de couleur de fond sinon on la voit à droite */
+background:url(images/wrapper.gif) repeat-y; /* =bug IE ne pas mettre de couleur de fond sinon on la voit Ã  droite */
 margin:auto;
 width:794px;
 }
@@ -65,7 +65,7 @@ width:794px;
 background-image:url(images/nav_bg.gif);
 height:60px;
 overflow:hidden;
-position:relative; /* positionner cette <div> pour que les <a> se positionnent par rapport à ça */
+position:relative; /* positionner cette <div> pour que les <a> se positionnent par rapport Ã  Ã§a */
 text-indent:-290486px;
 width:794px;
 }
@@ -79,7 +79,7 @@ background-image:url(images/nav.gif); /* mettre "background-image" et pas "backg
 background-repeat:no-repeat; /* mettre le background au <a> et aussi au #navigation */
 display:block;
 height:60px;
-position:absolute; /* pour que ça soit en ligne */
+position:absolute; /* pour que Ã§a soit en ligne */
 }
 
 #nav01 {
